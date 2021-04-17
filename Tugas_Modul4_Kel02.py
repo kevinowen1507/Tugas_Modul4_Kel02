@@ -8,3 +8,8 @@ def addlist():
     a = str(input("Silahkan masukkan nama"))
     list.append(a)
     print(a, "telah ditambahkan ke dalam antrian")
+def removelist():
+    showlist()
+    a = int(input("Pilih nomor urut yang ingin dihapus: "))
+    del list[a-1]
+
