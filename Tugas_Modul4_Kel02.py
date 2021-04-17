@@ -4,3 +4,7 @@ def showlist():
     for i in list:
         print(f"{i} <- ", end = '')
     print("\n")
+def addlist():
+    a = str(input("Silahkan masukkan nama"))
+    list.append(a)
+    print(a, "telah ditambahkan ke dalam antrian")
