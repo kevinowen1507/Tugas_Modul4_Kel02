@@ -12,4 +12,6 @@ def removelist():
     showlist()
     a = int(input("Pilih nomor urut yang ingin dihapus: "))
     del list[a-1]
-
+def nextturn():
+    print("\nGiliran selanjutnya:", list[0], "silahkan masuk\n")
+    del list[0]
